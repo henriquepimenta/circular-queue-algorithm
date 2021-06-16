@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fila Circular</title>
+</head>
+
+<body>
+    <script src="FilaCircular.js"></script>
+    <script>
+        const fila = new FilaCircular(6);
+        fila.mostrar();
+        fila.inserir('1');
+        fila.inserir('2');
+        fila.inserir('3');
+        fila.inserir('4');
+        fila.inserir('5');
+        fila.inserir('6');
+        fila.remover();
+        fila.remover();
+        fila.inserir('Elemento');
+
+        fila.mostrar();
+    </script>
+</body>
+
+</html>
